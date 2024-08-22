@@ -11,7 +11,7 @@ const StoreContextProvider = (props) => {
 
     const [food_list, setFoodList] = useState([]);
 
-    const url = "http://localhost:4000"
+    const url = "https://food-delivery-backend-l4g6.onrender.com"
 
     const addToCart = async (itemId) => {
 
